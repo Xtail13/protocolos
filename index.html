@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Protocolos | Jessica Ocampo Fisioterapia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-toggle" aria-label="Abrir menú">
+            ☰
+        </button>
+
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <img src="JOF.png" alt="Jessica Ocampo Logo" class="brand-logo">
+                </div>
+                <div class="brand-text">
+                    <h2>Jessica Ocampo</h2>
+                    <span>Fisioterapia</span>
+                </div>
+            </div>
+
+            <nav class="toc">
+                <p class="menu-label">Navegación</p>
+                <ul>
+                    <li>
+                        <a href="#intro" class="nav-link active">
+                            <span class="icon">🏠</span> Introducción
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#protocolo-cuello" class="nav-link">
+                            <span class="icon">💆‍♀️</span> Cuello y Espalda
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#cuello-objetivo">Objetivo y Duración</a></li>
+                            <li><a href="#cuello-recepcion">Recepción</a></li>
+                            <li><a href="#cuello-fase1">Fase 1: Protocolo</a></li>
+                            <li><a href="#cuello-cierre">Cierre</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#protocolo-completa" class="nav-link">
+                            <span class="icon">✨</span> Descarga Completa
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#completa-general">General</a></li>
+                            <li><a href="#completa-escenario1">Escenario Espalda</a></li>
+                            <li><a href="#completa-escenario2">Escenario Piernas</a></li>
+                            <li><a href="#completa-subprotocolos">Sub-Protocolos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#protocolo-express" class="nav-link">
+                            <span class="icon">⚡</span> Jornada Express
+                        </a>
+                        <ul class="sub-menu">
+                            <li><a href="#express-guion">Guion</a></li>
+                            <li><a href="#express-pasos">Pasos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button onclick="window.print()" class="btn-print">
+                    <span class="icon-print">🖨️</span> Imprimir
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+
+            <header class="content-header">
+                <div class="header-content">
+                    <span class="badge badge-primary">Documentación Oficial</span>
+                    <h1>Manual de Procedimientos Clínicos</h1>
+                    <p class="lead">Estándares operativos y metodológicos para el equipo de fisioterapia.</p>
+                </div>
+            </header>
+
+            <div class="content-body">
+
+                <section id="intro" class="manual-section intro-section">
+                    <div class="card intro-card">
+                        <div class="card-body">
+                            <h3>Bienvenido al Estándar JOF</h3>
+                            <p>Este manual detalla los procedimientos <strong>no negociables</strong> de nuestra
+                                práctica clínica. Nuestro objetivo es la excelencia técnica y la empatía humana en cada
+                                sesión.</p>
+                            <div class="stats-grid modern-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">3</span>
+                                    <span class="stat-label">Protocolos Core</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Estandarización</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">6-7</span>
+                                    <span class="stat-label">Escala Presión</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="section-divider">
+
+                <!-- PROTOCOLO 1: CUELLO Y ESPALDA -->
+                <section id="protocolo-cuello" class="manual-section">
+                    <div class="section-header">
+                        <span class="section-number">01</span>
+                        <h2 class="protocol-title">Descarga Muscular: Cuello y Espalda</h2>
+                    </div>
+
+                    <div id="cuello-objetivo" class="subsection">
+                        <div class="info-row">
+                            <div class="info-box objective">
+                                <span class="label">Objetivo</span>
+                                <p>Descarga enfocada en espalda y cuello, priorizando la zona de mayor carga.</p>
+                            </div>
+                            <div class="info-box duration highlight">
+                                <span class="label">Duración</span>
+                                <p class="big-text">50 min</p>
+                                <small>⚠️ Sin extensiones</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="cuello-recepcion" class="subsection card-section">
+                        <h3>Recepción y Consentimiento</h3>
+                        <div class="process-steps">
+                            <div class="step">
+                                <span class="step-icon">1</span>
+                                <h4>Saludo</h4>
+                                <p>Cordial, generando confianza inmediata.</p>
+                            </div>
+                            <div class="step">
+                                <span class="step-icon">2</span>
+                                <h4>Diagnóstico Rápido</h4>
+                                <p>Preguntar: ¿Más cuello o espalda? ¿Derecha o Izquierda?</p>
+                            </div>
+                            <div class="step step-warning">
+                                <span class="step-icon">!</span>
+                                <h4>Consentimiento</h4>
+                                <p>"Te voy a pedir permiso para bajar un poco el short..."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>Normas No Negociables</h3>
+                        <div class="rules-grid">
+                            <div class="rule-card">
+                                <span class="rule-icon">👉</span>
+                                <p>Iniciar por zona más cargada.</p>
+                            </div>
+                            <div class="rule-card">
+                                <span class="rule-icon">👉</span>
+                                <p>Lado derecho completo → luego izquierdo.</p>
+                            </div>
+                            <div class="rule-card rule-danger">
+                                <span class="rule-icon">❌</span>
+                                <p>No alternar lados.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="cuello-fase1" class="subsection">
+                        <h3>Protocolo Terapéutico (50 min)</h3>
+                        <p>El tiempo se ajusta según la carga referida. Siempre inicia sentado.</p>
+
+                        <div class="scenarios-grid">
+                            <div class="scenario-card">
+                                <div class="scenario-header">Carga en Cuello</div>
+                                <ul>
+                                    <li><strong>11 min</strong> Cuello Der.</li>
+                                    <li><strong>11 min</strong> Cuello Izq.</li>
+                                    <li><strong>8 min</strong> Espalda Der.</li>
+                                    <li><strong>8 min</strong> Espalda Izq.</li>
+                                </ul>
+                            </div>
+                            <div class="scenario-card">
+                                <div class="scenario-header">Carga en Espalda</div>
+                                <ul>
+                                    <li><strong>8 min</strong> Cuello Der.</li>
+                                    <li><strong>8 min</strong> Cuello Izq.</li>
+                                    <li><strong>11 min</strong> Espalda Der.</li>
+                                    <li><strong>11 min</strong> Espalda Izq.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="procedure-block">
+                            <h4>1. Trabajo de Cuello (Sentado)</h4>
+                            <ul class="checklist">
+                                <li><strong>Preparación:</strong> Pistola percutora en cervical/trapecio.</li>
+                                <li><strong>Manual:</strong> Presión directa en ECM, Escalenos, Trapecio.</li>
+                                <li><strong>Herramientas:</strong> Manual, Instrumento, Therapress (obligatorio si
+                                    nudillo falla).</li>
+                            </ul>
+                        </div>
+
+                        <div class="procedure-block">
+                            <h4>2. Paso a Camilla</h4>
+                            <ul class="checklist">
+                                <li><strong>TENS:</strong> Occipital y Trapecio. Intensidad tolerable.</li>
+                                <li><strong>Calor:</strong> Manta térmica con masaje mínimo.</li>
+                                <li><strong>Ventosas:</strong> Móviles, 2-3 min/lado (si no hay vello).</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="cuello-cierre" class="subsection">
+                        <h3>Cierre de Sesión</h3>
+                        <blockquote class="speech-bubble">
+                            "Es normal que ahora o incluso mañana te sientas un poco molido... En los próximos dos días
+                            vas a sentir alivio mientras el músculo se recupera."
+                        </blockquote>
+                        <div class="tips-box">
+                            <strong>Tip Educación:</strong> "El cuerpo se adapta. Si lo cargamos, se tensa. Si lo
+                            descargamos, aprende a relajarse."
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="section-divider">
+
+                <!-- PROTOCOLO 2: DESCARGA COMPLETA -->
+                <section id="protocolo-completa" class="manual-section">
+                    <div class="section-header">
+                        <span class="section-number">02</span>
+                        <h2 class="protocol-title">Descarga Muscular Completa</h2>
+                    </div>
+
+                    <div id="completa-general" class="subsection">
+                        <div class="info-row">
+                            <div class="info-box objective">
+                                <span class="label">Objetivo</span>
+                                <p>Descarga integral liberando tensión y puntos gatillo.</p>
+                            </div>
+                            <div class="info-box duration highlight">
+                                <span class="label">Duración</span>
+                                <p class="big-text">80 min</p>
+                                <small>Máx 90 min</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subsection">
+                        <h3>Educación: Contracturas</h3>
+                        <div class="education-card">
+                            <p>Explica durante la evaluación, nunca al final.</p>
+                            <p class="quote">"Muchas veces no es solo el ejercicio, también el estrés del día a día se
+                                queda guardado en el cuerpo."</p>
+                        </div>
+                    </div>
+
+                    <div class="tabs-display">
+                        <div id="completa-escenario1" class="tab-content active">
+                            <h4>Escenario 1: Espalda Predominante</h4>
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="time">30 min</span>
+                                    <div class="content">
+                                        <strong>Fase 1: Espalda</strong>
+                                        <p>Pistola (4 min) → Manual/Instrumental (8 min) → Ventosas (2 min).</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="time">20 min</span>
+                                    <div class="content">
+                                        <strong>Fase 2: TENS + Calor</strong>
+                                        <p>En espalda mientras se trabajan piernas.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="time">24 min</span>
+                                    <div class="content">
+                                        <strong>Fase 3: Piernas</strong>
+                                        <p>12 min por pierna. Manual y Ventosas.</p>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="time">15 min</span>
+                                    <div class="content">
+                                        <strong>Fase 4: Botas de Compresión</strong>
+                                        <p>Explicar sensación de presión progresiva.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="completa-escenario2" class="tab-content">
+                            <h4>Escenario 2: Piernas Predominantes</h4>
+                            <p>Invierte el foco: 30 min en Piernas, 25 min en Espalda.</p>
+                        </div>
+                    </div>
+
+                    <div id="completa-subprotocolos" class="subsection">
+                        <h3>Sub-Protocolos Especiales</h3>
+                        <div class="sub-protocols-grid">
+                            <div class="sub-card">
+                                <h5>Cervical (Cuello)</h5>
+                                <p>Si hay alta carga. Inicio sentado (6 min/lado).</p>
+                            </div>
+                            <div class="sub-card">
+                                <h5>Glúteo (Deportistas)</h5>
+                                <p>Si hay dolor y autorización. Presión profunda en piriforme.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="completa-alta-carga" class="subsection">
+                        <div class="alert alert-important">
+                            <strong>Alta Carga Miofascial</strong>
+                            <p>Si hay hipersensibilidad, recomendar sesión 2 en 48-72h. No liberar todo agresivamente
+                                hoy.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="section-divider">
+
+                <!-- PROTOCOLO 3: JORNADA EXPRESS -->
+                <section id="protocolo-express" class="manual-section">
+                    <div class="section-header">
+                        <span class="section-number">03</span>
+                        <h2 class="protocol-title">Jornada Express (Corporativo)</h2>
+                    </div>
+
+                    <div id="express-guion" class="subsection">
+                        <blockquote class="speech-bubble">
+                            “Hola, vamos a realizar una liberación miofascial express para reducir la tensión
+                            acumulada... Son unos minutos para ayudarte a soltar.”
+                        </blockquote>
+                    </div>
+
+                    <div id="express-pasos" class="subsection">
+                        <div class="step-list">
+                            <div class="step-item">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <strong>Pistola Percutora (2 min)</strong>
+                                    <p>Cuello, trapecios, espalda alta.</p>
+                                </div>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <strong>Manual Express (3 min)</strong>
+                                    <p>Presión progresiva en zonas de enfoque.</p>
+                                </div>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">3</span>
+                                <div class="step-content">
+                                    <strong>Estimulación Craneal (2 min)</strong>
+                                    <p>Suave, para reducir tensión mental.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="doc-footer">
+                    <p>© 2024 Jessica Ocampo Fisioterapia. Documento Confidencial de Uso Interno.</p>
+                </footer>
+
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle logic
+        const mobileBtn = document.querySelector('.mobile-menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+        const content = document.querySelector('.content');
+        const navLinks = document.querySelectorAll('.nav-link, .sub-menu a');
+
+        mobileBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+            // Toggle icon
+            mobileBtn.innerHTML = sidebar.classList.contains('active') ? '✕' : '☰';
+        });
+
+        // Close sidebar when clicking a link (mobile UX)
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                if (window.innerWidth <= 1024) {
+                    sidebar.classList.remove('active');
+                    mobileBtn.innerHTML = '☰';
+                }
+            });
+        });
+
+        // Close when clicking outside on mobile
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth <= 1024 &&
+                sidebar.classList.contains('active') &&
+                !sidebar.contains(e.target) &&
+                !mobileBtn.contains(e.target)) {
+
+                sidebar.classList.remove('active');
+                mobileBtn.innerHTML = '☰';
+            }
+        });
+    </script>
+</body>
+
+</html>
